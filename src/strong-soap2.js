@@ -15,5 +15,7 @@ soap.createClient(url, options, function (err, client) {
     //response envelope
     console.log(`Response Envelope: \n ${envelope} \n`);
     //'result' is 'undefined'
+    // this is a bug in strong-soap
+    // so I switche to node-soap
   });
 });

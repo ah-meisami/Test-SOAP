@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ah-meisami/Test-SOAP/issues"
   },
-  "homepage": "https://github.com/ah-meisami/Test-SOAP#readme"
+  "homepage": "https://github.com/ah-meisami/Test-SOAP#readme",
+  "dependencies": {
+    "strong-soap": "^1.22.1"
+  }
 }
